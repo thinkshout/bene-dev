@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fbfa342af0fdbabc809c797a95e9c795",
-    "content-hash": "844341bd2edf69a912409079cc4bb255",
+    "hash": "24294fff8fea479ec68e31386034f429",
+    "content-hash": "71cde58ca94cf49702b0e3fe409b8f5b",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -68,49 +68,6 @@
                 "zip"
             ],
             "time": "2016-02-15 22:46:40"
-        },
-        {
-            "name": "asm89/stack-cors",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/asm89/stack-cors.git",
-                "reference": "3ae8ef219bb4c9a6caf857421719aa07fa7776cc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/asm89/stack-cors/zipball/3ae8ef219bb4c9a6caf857421719aa07fa7776cc",
-                "reference": "3ae8ef219bb4c9a6caf857421719aa07fa7776cc",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2",
-                "symfony/http-foundation": "~2.1|~3.0",
-                "symfony/http-kernel": "~2.1|~3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Asm89\\Stack": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Alexander",
-                    "email": "iam.asm89@gmail.com"
-                }
-            ],
-            "description": "Cross-origin resource sharing library and stack middleware",
-            "homepage": "https://github.com/asm89/stack-cors",
-            "keywords": [
-                "cors",
-                "stack"
-            ],
-            "time": "2016-08-01 12:05:04"
         },
         {
             "name": "composer/installers",
@@ -851,15 +808,15 @@
         },
         {
             "name": "drupal/admin_toolbar",
-            "version": "8.1.16",
+            "version": "8.1.17",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/admin_toolbar.git",
-                "reference": "53a3c9fbb3709d5629b0992df63ffb1f43c94d2d"
+                "reference": "195f503ee4350c8be74b9515c21e264384a2fcaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/admin_toolbar-8.x-1.16.zip",
+                "url": "https://ftp.drupal.org/files/projects/admin_toolbar-8.x-1.17.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -891,7 +848,7 @@
             ],
             "description": "Provides a drop-down menu interface to the core Drupal Toolbar.",
             "homepage": "http://drupal.org/project/admin_toolbar",
-            "time": "2016-07-28 09:57:05"
+            "time": "2016-08-19 14:05:31"
         },
         {
             "name": "drupal/bene",
@@ -899,16 +856,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thinkshout/bene.git",
-                "reference": "34b1f594f4befc8c59cb08efe2e0d46249aae5e7"
+                "reference": "8cdb98f23efaed92411cc3794be81249e39f94e1"
             },
             "require": {
                 "composer/installers": "^1.0.20",
                 "cweagans/composer-patches": "~1.0",
-                "drupal/admin_toolbar": "8.1.16",
+                "drupal/admin_toolbar": "^8.1.16",
                 "drupal/config_installer": "8.1.x-dev",
                 "drupal/console": "~1.0",
                 "drupal/contact_storage": "8.1.0-beta2",
-                "drupal/core": "^8.2.0",
+                "drupal/core": "^8.1.8",
                 "drupal/ctools": "8.3.0-alpha26",
                 "drupal/devel": "8.1.x-dev",
                 "drupal/ds": "8.2.3",
@@ -935,6 +892,17 @@
                 "symfony/css-selector": "~2.8"
             },
             "type": "drupal-profile",
+            "extra": {
+                "patches": {
+                    "drupal/core": {
+                        "Use 'view label' operation for ER label formatter - https://www.drupal.org/node/2692091#comment-11090279": "https://www.drupal.org/files/issues/2692091-10.patch",
+                        "Telephone field with 5 digits or less fatally breaks formatter": "https://www.drupal.org/files/issues/min-length-telephone-link-2484693-26.patch"
+                    },
+                    "drupal/metatag": {
+                        "Drupal console error": "https://www.drupal.org/files/issues/drupal-consol_2760661.patch"
+                    }
+                }
+            },
             "license": [
                 "GPL-2.0+"
             ],
@@ -945,7 +913,7 @@
                 }
             ],
             "description": "Bene distribution for non-profits",
-            "time": "2016-09-08 20:33:51"
+            "time": "2016-09-09 00:44:50"
         },
         {
             "name": "drupal/config_installer",
@@ -1095,20 +1063,19 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.2.0-rc1",
+            "version": "8.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal-composer/drupal-core.git",
-                "reference": "e007a6ef60895655de6d7d65b84d99a22504be19"
+                "reference": "b4fce409224b6351dce94f74b1e48f82515e191d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal-composer/drupal-core/zipball/e007a6ef60895655de6d7d65b84d99a22504be19",
-                "reference": "e007a6ef60895655de6d7d65b84d99a22504be19",
+                "url": "https://api.github.com/repos/drupal-composer/drupal-core/zipball/b4fce409224b6351dce94f74b1e48f82515e191d",
+                "reference": "b4fce409224b6351dce94f74b1e48f82515e191d",
                 "shasum": ""
             },
             "require": {
-                "asm89/stack-cors": "~1.0",
                 "composer/semver": "~1.0",
                 "doctrine/annotations": "1.2.*",
                 "doctrine/common": "2.5.*",
@@ -1119,7 +1086,7 @@
                 "paragonie/random_compat": "~1.0",
                 "php": ">=5.5.9",
                 "stack/builder": "1.0.*",
-                "symfony-cmf/routing": "~1.4",
+                "symfony-cmf/routing": "1.3.*",
                 "symfony/class-loader": "~2.8",
                 "symfony/console": "~2.8",
                 "symfony/dependency-injection": "~2.8",
@@ -1148,7 +1115,6 @@
                 "drupal/big_pipe": "self.version",
                 "drupal/block": "self.version",
                 "drupal/block_content": "self.version",
-                "drupal/block_place": "self.version",
                 "drupal/book": "self.version",
                 "drupal/breakpoint": "self.version",
                 "drupal/ckeditor": "self.version",
@@ -1158,7 +1124,6 @@
                 "drupal/config": "self.version",
                 "drupal/config_translation": "self.version",
                 "drupal/contact": "self.version",
-                "drupal/content_moderation": "self.version",
                 "drupal/content_translation": "self.version",
                 "drupal/contextual": "self.version",
                 "drupal/core-annotation": "self.version",
@@ -1183,7 +1148,6 @@
                 "drupal/core-utility": "self.version",
                 "drupal/core-uuid": "self.version",
                 "drupal/datetime": "self.version",
-                "drupal/datetime_range": "self.version",
                 "drupal/dblog": "self.version",
                 "drupal/dynamic_page_cache": "self.version",
                 "drupal/editor": "self.version",
@@ -1209,7 +1173,6 @@
                 "drupal/minimal": "self.version",
                 "drupal/node": "self.version",
                 "drupal/options": "self.version",
-                "drupal/outside_in": "self.version",
                 "drupal/page_cache": "self.version",
                 "drupal/path": "self.version",
                 "drupal/quickedit": "self.version",
@@ -1247,12 +1210,6 @@
                 "symfony/css-selector": "~2.8"
             },
             "type": "drupal-core",
-            "extra": {
-                "patches_applied": {
-                    "Use 'view label' operation for ER label formatter - https://www.drupal.org/node/2692091#comment-11090279": "https://www.drupal.org/files/issues/2692091-10.patch",
-                    "Telephone field with 5 digits or less fatally breaks formatter": "https://www.drupal.org/files/issues/min-length-telephone-link-2484693-26.patch"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Drupal\\Core\\": "lib/Drupal/Core",
@@ -1274,7 +1231,7 @@
                 "GPL-2.0+"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2016-09-07 21:40:46"
+            "time": "2016-09-07 19:16:42"
         },
         {
             "name": "drupal/ctools",
@@ -1649,9 +1606,6 @@
             "extra": {
                 "branch-alias": {
                     "dev-8.x-1.x": "8.1.x-dev"
-                },
-                "patches_applied": {
-                    "Drupal console error": "https://www.drupal.org/files/issues/drupal-consol_2760661.patch"
                 }
             },
             "notification-url": "https://packagist.drupal-composer.org/downloads/",
@@ -3024,38 +2978,36 @@
         },
         {
             "name": "symfony-cmf/routing",
-            "version": "1.4.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/Routing.git",
-                "reference": "b93704ca098334f56e9b317932f21a4362e620db"
+                "reference": "8e87981d72c6930a27585dcd3119f3199f6cb2a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/Routing/zipball/b93704ca098334f56e9b317932f21a4362e620db",
-                "reference": "b93704ca098334f56e9b317932f21a4362e620db",
+                "url": "https://api.github.com/repos/symfony-cmf/Routing/zipball/8e87981d72c6930a27585dcd3119f3199f6cb2a6",
+                "reference": "8e87981d72c6930a27585dcd3119f3199f6cb2a6",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.3.9|^7.0",
-                "psr/log": "1.*",
-                "symfony/http-kernel": "^2.2|3.*",
-                "symfony/routing": "^2.2|3.*"
+                "php": ">=5.3.3",
+                "psr/log": "~1.0",
+                "symfony/http-kernel": "~2.2",
+                "symfony/routing": "~2.2"
             },
             "require-dev": {
-                "friendsofsymfony/jsrouting-bundle": "^1.1",
-                "symfony-cmf/testing": "^1.3",
-                "symfony/config": "^2.2|3.*",
-                "symfony/dependency-injection": "^2.0.5|3.*",
-                "symfony/event-dispatcher": "^2.1|3.*"
+                "symfony/config": "~2.2",
+                "symfony/dependency-injection": "~2.0@stable",
+                "symfony/event-dispatcher": "~2.1"
             },
             "suggest": {
-                "symfony/event-dispatcher": "DynamicRouter can optionally trigger an event at the start of matching. Minimal version (~2.1)"
+                "symfony/event-dispatcher": "DynamicRouter can optionally trigger an event at the start of matching. Minimal version ~2.1"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.3-dev"
                 }
             },
             "autoload": {
@@ -3079,7 +3031,7 @@
                 "database",
                 "routing"
             ],
-            "time": "2016-03-31 09:11:39"
+            "time": "2014-10-20 20:55:17"
         },
         {
             "name": "symfony/class-loader",
