@@ -817,7 +817,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/admin_toolbar-8.x-1.17.zip",
-                "reference": null,
+                "reference": "195f503ee4350c8be74b9515c21e264384a2fcaf",
                 "shasum": null
             },
             "require": {
@@ -1012,7 +1012,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/contact_storage-8.x-1.0-beta2.zip",
-                "reference": null,
+                "reference": "ca90e6724b1ae83670a86d361e8049e9ac0daca9",
                 "shasum": null
             },
             "require": {
@@ -1218,7 +1218,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/ctools-8.x-3.0-alpha26.zip",
-                "reference": null,
+                "reference": "c14a5eee970c3d0aab02e88f6c6a4d18091439b8",
                 "shasum": null
             },
             "require": {
@@ -1302,7 +1302,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/ds-8.x-2.3.zip",
-                "reference": null,
+                "reference": "9870d5e4061cac119d23798342d4be7ab9f09525",
                 "shasum": null
             },
             "require": {
@@ -1363,7 +1363,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/email_registration-8.x-1.0-rc3.zip",
-                "reference": null,
+                "reference": "319b9ff7474873221d9e5ea6f610fb7c711e6b0e",
                 "shasum": null
             },
             "require": {
@@ -1394,7 +1394,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/google_analytics-8.x-2.0.zip",
-                "reference": null,
+                "reference": "99802b6a9f7711d30838acaa1af9ce2cf5b4d614",
                 "shasum": null
             },
             "require": {
@@ -1435,7 +1435,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/inline_entity_form-8.x-1.0-alpha6.zip",
-                "reference": null,
+                "reference": "27af4de9fd961fa6ae1369604d05fec8b06db867",
                 "shasum": null
             },
             "require": {
@@ -1466,7 +1466,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/layout_plugin-8.x-1.0-alpha22.zip",
-                "reference": null,
+                "reference": "90be55a68dd33d3564c26fab77573b62f6cda77e",
                 "shasum": null
             },
             "require": {
@@ -1520,7 +1520,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/linkit-8.x-4.1.zip",
-                "reference": null,
+                "reference": "a3e3369aef72b3cec15e705b21987c4d66be0c0d",
                 "shasum": null
             },
             "require": {
@@ -1559,7 +1559,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/metatag-8.x-1.0-beta9.zip",
-                "reference": null,
+                "reference": "1a62e1e051462cb2ddabf4db35a8fef5c69b9c5c",
                 "shasum": null
             },
             "require": {
@@ -1612,7 +1612,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/pathauto-8.x-1.0-alpha3.zip",
-                "reference": null,
+                "reference": "c4952e15e2906ff2040bc01f5e8f37d23950269e",
                 "shasum": null
             },
             "require": {
@@ -1671,7 +1671,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/simple_sitemap-8.x-2.5.zip",
-                "reference": null,
+                "reference": "354ae49491b6fce3654d5f7047a1558a730d2b6e",
                 "shasum": null
             },
             "require": {
@@ -1702,7 +1702,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/token-8.x-1.0-alpha2.zip",
-                "reference": null,
+                "reference": "918d0d5e8e8ee7f446d3e068cb6aa2d7c61ee625",
                 "shasum": null
             },
             "require": {
