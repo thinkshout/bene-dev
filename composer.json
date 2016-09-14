@@ -1,6 +1,6 @@
 {
-    "name": "thinkshout/bene-project",
-    "description": "ThinkShout's project template for Drupal 8 projects with composer",
+    "name": "thinkshout/bene-dev",
+    "description": "Development install for the Bene profile",
     "type": "project",
     "license": "GPL-2.0+",
     "authors": [
@@ -27,8 +27,7 @@
         "drupal/bene": "dev-master"
     },
     "require-dev": {
-        "thinkshout/robo-drupal": "dev-master",
-        "pantheon-systems/ci-scripts": "*"
+        "thinkshout/robo-drupal": "dev-master"
     },
     "conflict": {
         "drupal/drupal": "*"

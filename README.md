@@ -2,11 +2,9 @@
 
 # Bene Project
 
-**Note**: This project was forked from the [drupal-project](https://github.com/drupal-composer/bene-project) repository.
-
 ## Development set-up
 
-This is a Drupal 8 site built using the [robo taskrunner](http://robo.li/). 
+This is a Drupal 8 site built using the [robo taskrunner](http://robo.li/).
 
 First you need to [install composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx).
 
@@ -22,22 +20,6 @@ Update with:
 
 You can also make this change permanent by editing your `~/.zshrc` file:
 `export PATH="./vendor/bin:...`
-
-Add the custom git repo to your list of available composer paths by opening (or creating) `~/.composer/config.json`
-and adding these lines:
-
-```
-{
-    "config": {
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/thinkshout/bene-project"
-        }
-    ]
-}
-```
 
 ### Initial build (existing repo)
 
