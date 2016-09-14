@@ -38,7 +38,7 @@ if (!defined('PANTHEON_ENVIRONMENT')) {
 // drush/SITE.drush.inc) OR PANTHEON_ENVIRONMENT to determine if we should
 // enable file base config. We only use file based for local development.
 // We could use a module like config_devel locally as well.
-if (!(getenv('DRUPAL_INSTALL') || defined('PANTHEON_ENVIRONMENT'))) {
+if (!(getenv('DRUPAL_INSTALL') || defined('PANTHEON_ENVIRONMENT')) && FALSE) {
   // Bootstrap file based config.
   $settings['bootstrap_config_storage'] = array(
     'Drupal\Core\Config\BootstrapConfigStorageFactory',
