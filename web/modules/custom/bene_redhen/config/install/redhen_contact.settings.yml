@@ -1,8 +1,9 @@
-unique_email: true
-connect_users: false
-embed_on_user_form: false
-alter_username: true
-registration: true
-registration_type: null
-registration_link: null
-registration_update: null
+unique_email: 1
+connect_users: 1
+embed_on_user_form: 1
+alter_username: 1
+registration: 1
+registration_type: general
+registration_link: 1
+registration_update: 1
+valid_email: 1
