@@ -17,6 +17,10 @@
         {
             "type": "git",
             "url": "https://github.com/thinkshout/bene.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/thinkshout/media.git"
         }
     ],
     "require": {
