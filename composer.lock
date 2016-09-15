@@ -883,7 +883,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thinkshout/bene.git",
-                "reference": "7401af7fa0ef4b198b78ebcf8f6967fb276b0df4"
+                "reference": "865f40f379bb94dda62fefa728643814d76b51dd"
             },
             "require": {
                 "composer/installers": "^1.0.20",
@@ -943,7 +943,7 @@
                 }
             ],
             "description": "Bene distribution for non-profits",
-            "time": "2016-09-15 18:36:14"
+            "time": "2016-09-15 21:45:12"
         },
         {
             "name": "drupal/config_update",
@@ -1363,7 +1363,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/default_content.git",
-                "reference": "c6a79ee2ffc71b0136d4988871618e05d8be4018"
+                "reference": "10c07ee3eb29c3a4112209dfe842c048160efb46"
             },
             "require": {
                 "drupal/core": "8.*",
@@ -1381,7 +1381,7 @@
             ],
             "description": "Imports default content when a module is enabled",
             "homepage": "https://www.drupal.org/project/default_content",
-            "time": "2016-04-26 23:32:14"
+            "time": "2016-09-15 21:41:18"
         },
         {
             "name": "drupal/devel",
@@ -5248,7 +5248,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thinkshout/media.git",
-                "reference": "b417151080b5a8278d2609809df04dd037c58aaf"
+                "reference": "c923290a84c5d044bed45b5873e898962f89a6d7"
             },
             "require": {
                 "drupal/entity_browser": "8.1.x-dev",
@@ -5269,7 +5269,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/drupal-contribute"
             },
-            "time": "2016-09-15 19:02:34"
+            "time": "2016-09-15 19:41:50"
         },
         {
             "name": "twig/twig",
