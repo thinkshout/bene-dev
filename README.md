@@ -70,9 +70,11 @@ robo test
 
 ### Theming
 
-`cd web/themes/custom/ts_benefit`
-`rake install`
-`rake serve`
+```
+cd web/themes/custom/ts_benefit
+rake install
+rake serve
+```
 
 ## Updating contributed code
 
