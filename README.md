@@ -68,6 +68,12 @@ Test are run automatically on CircleCI, but can be run locally as well with:
 robo test
 ```
 
+### Theming
+
+`cd web/themes/custom/ts_benefit`
+`rake install`
+`rake serve`
+
 ## Updating contributed code
 
 ### Updating contrib modules
