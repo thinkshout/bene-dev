@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4f28a35060a6f4d5b060928f1ee92b15",
-    "content-hash": "a681ac6c0871fd7b70f15024ac7e4878",
+    "hash": "e15031a57ea1600d3072cf87ce15f045",
+    "content-hash": "556c1ea0a0813824466cb087e51d6bcf",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2221,6 +2221,29 @@
             "description": "Redirect anonymous users from 403 Access Denied pages to the /user/login page.",
             "homepage": "https://www.drupal.org/project/r4032login",
             "time": "2016-03-01 13:56:38"
+        },
+        {
+            "name": "drupal/redhen",
+            "version": "dev-8.x-1.x-github",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thinkshout/redhen.git",
+                "reference": "7e7994fd29e344a2e5a96a725b1800b0bfb0cc09"
+            },
+            "type": "drupal-module",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "RedHen CRM",
+            "homepage": "https://www.drupal.org/project/redhen",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "issues": "https://drupal.org/project/issues/redhen",
+                "source": "http://cgit.drupalcode.org/redhen"
+            },
+            "time": "2016-09-15 21:23:28"
         },
         {
             "name": "drupal/simple_sitemap",
@@ -6042,6 +6065,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/bene": 20,
+        "drupal/redhen": 20,
         "thinkshout/robo-drupal": 20
     },
     "prefer-stable": true,
