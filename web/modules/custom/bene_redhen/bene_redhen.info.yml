@@ -1,0 +1,7 @@
+name: Redhen
+type: module
+core: 8.x
+dependencies:
+  - redhen_contact
+  - views
+package: Bene
