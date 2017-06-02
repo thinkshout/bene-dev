@@ -12,29 +12,24 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://packagist.drupal-composer.org"
+            "url": "https://packages.drupal.org/8"
         },
         {
             "type": "git",
             "url": "https://github.com/thinkshout/bene.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/thinkshout/media.git"
         }
     ],
     "require": {
-        "composer/installers": "^1.0.20",
-        "drupal-composer/drupal-scaffold": "^2.0.1",
+        "drupal/bene": "dev-master",
+        "composer/installers": "^1.2",
+        "drupal-composer/drupal-scaffold": "^2.2",
         "cweagans/composer-patches": "~1.0",
-        "vlucas/phpdotenv": "^2.2",
-        "drupal/bene": "dev-master"
+        "drush/drush": "^8.1.10",
+        "drupal/console": "~1.0"
     },
     "require-dev": {
+        "vlucas/phpdotenv": "^2.2",
         "thinkshout/robo-drupal": "dev-master"
-    },
-    "conflict": {
-        "drupal/drupal": "*"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
@@ -66,11 +61,6 @@
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"]
-        },
-        "drupal-scaffold": {
-            "excludes": [
-                ".htaccess"
-            ]
         }
     }
 }

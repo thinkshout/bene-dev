@@ -10,6 +10,7 @@ web/sites/default/files/
 
 # Ignore generated config
 .env
+composer.lock
 
 # Ignore OSX files
 .DS_Store
